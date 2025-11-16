@@ -50,7 +50,7 @@ servicesCarousel.addEventListener('scroll', () => {
   clearTimeout(serviceScrollTimeout);
   serviceScrollTimeout = setTimeout(() => {
     servicesContainer.style.animationPlayState = "running";
-  }, 20000); // resumes after 20s no interaction
+  }, 5000); // resumes after 5s no interaction
 });
 
 // Pause on hover
@@ -87,7 +87,7 @@ galleryCarousel.addEventListener('scroll', () => {
   clearTimeout(scrollTimeout);
   scrollTimeout = setTimeout(() => {
     galleryContainer.style.animationPlayState = "running";
-  }, 20000); // ⬅ animation resumes after 20s of no interaction
+  }, 5000); // ⬅ animation resumes after 5s of no interaction
 });
 
 // Pause on hover
