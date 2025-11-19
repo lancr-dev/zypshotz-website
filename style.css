@@ -60,6 +60,7 @@ nav{
 }
 .brand-container img{
   border-radius: 10px;
+  cursor: pointer;
   transition: transform 0.5s ease;
 }
 .brand-container img:hover{
@@ -135,6 +136,7 @@ svg{
   background-clip: text;
   -webkit-text-fill-color: transparent;
   text-align: center;
+  cursor: pointer;
 }
 .home p{
   font-size: 2rem;
@@ -142,6 +144,7 @@ svg{
   background-clip: text;
   -webkit-text-fill-color: transparent;
   text-align: center;
+  cursor: pointer;
 }
 
 /* PRODUCTS & SERVICES SECTION */
@@ -180,6 +183,7 @@ svg{
   padding: 30px;
   border-radius: 10px;
   box-shadow: 3px 3px 5px 1px black;
+  cursor: pointer;
   transition: 0.5s ease;
 }
 .card:hover{
@@ -235,6 +239,7 @@ svg{
   padding: 20px;
   border-radius: 10px;
   box-shadow: 3px 3px 5px 1px black;
+  cursor: pointer;
   transition: 0.5s ease;
 }
 .gallery-card:hover{
@@ -327,6 +332,7 @@ svg{
   padding: 20px;
   border-radius: 10px;
   box-shadow: 3px 3px 5px 1px black;
+  cursor: pointer;
   transition: 0.5s ease;
 }
 .member-card:hover{
@@ -393,6 +399,7 @@ svg{
   display: flex;
   align-items: center;
   gap: 20px;
+  cursor: pointer;
 }
 .contact-box a{
   display: flex;
@@ -403,7 +410,11 @@ svg{
   width: 50px;
   background-color: white;
   padding: 5px;
-  border-radius: 10px;
+  border-radius: 50%;
+  transition: transform 0.5s ease;
+}
+.contact-box img:hover{
+  transform: scale(1.2);
 }
 .contacts p{
   color: white;
